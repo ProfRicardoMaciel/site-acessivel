@@ -25,6 +25,10 @@ header {
 
 }
 
+.rotacao-botao {
+    transform: rotate(90deg);
+}
+
 
 
 
