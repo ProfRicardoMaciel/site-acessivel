@@ -17,6 +17,14 @@ header {
     background-color: #ffffff;
 }
 
+.menu-acessibilidade {
+    position: fixed;
+    right: 5px;
+
+}
+
+
+
 
 section {
     padding-bottom: 5rem;
