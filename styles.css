@@ -21,7 +21,7 @@ header {
     position: fixed;
     right: 20px;
     top: 2rem;
-    
+    z-index: 1000;
 
 }
 
