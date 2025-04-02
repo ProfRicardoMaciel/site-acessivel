@@ -30,12 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
  
      })
 
-     const botaoDeAcessibilidade = document.getElementById ('botao-acessibilidade')
- const opçoesDeAcessibilidade = document.getElementById ('opçoes-acessibilidade')
- botaoDeAcessibilidade.addEventListener('click', function()){
-    botaoDeAcessibilidade.classList.toggle('rotaçao-botao')
-    opçoesDeAcessibilidade.classList.toggle('apresenta-lista')
- }
+    
      alternaContraste.addEventListener('click', function(){
          document.body.classList.toggle('alto-contraste')
      })
