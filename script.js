@@ -29,13 +29,19 @@ document.addEventListener('DOMContentLoaded', function(){
          document.body.style.fontSize = `${tamanhoAtualFonte}rem`
  
      })
- 
+
+     const botaoDeAcessibilidade = document.getElementById ('botao-acessibilidade')
+ const opçoesDeAcessibilidade = document.getElementById ('opçoes-acessibilidade')
+ botaoDeAcessibilidade.addEventListener('click', function()){
+    botaoDeAcessibilidade.classList.toggle
+ }
      alternaContraste.addEventListener('click', function(){
          document.body.classList.toggle('alto-contraste')
      })
  
  
  })
+ 
  
  ScrollReveal().reveal('#inicio', { delay: 500 });
  ScrollReveal().reveal('#tropicalia', { delay: 500 });
